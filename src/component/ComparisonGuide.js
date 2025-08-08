@@ -480,7 +480,7 @@ export default function CameraComparison() {
                       </h3>
                       <p className="mt-1 text-gray-600">
                         When initial cost is the primary concern and high
-                        resolution isn't required.
+                        resolution isn&apos;t required.
                       </p>
                     </div>
                   </div>
@@ -506,7 +506,7 @@ export default function CameraComparison() {
                         Existing Coaxial Infrastructure
                       </h3>
                       <p className="mt-1 text-gray-600">
-                        When upgrading an existing HD system and rewiring isn't
+                        When upgrading an existing HD system and rewiring isn&apos;t
                         practical.
                       </p>
                     </div>
@@ -533,7 +533,7 @@ export default function CameraComparison() {
                         Simple Surveillance Needs
                       </h3>
                       <p className="mt-1 text-gray-600">
-                        Basic monitoring where advanced features aren't
+                        Basic monitoring where advanced features aren&apos;t
                         required.
                       </p>
                     </div>

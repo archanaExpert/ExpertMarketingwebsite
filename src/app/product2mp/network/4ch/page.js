@@ -120,7 +120,7 @@ const OrangeNVRPage = () => {
             key={product.model}
             className="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-all"
           >
-            <img
+            <Image
               src={product.image}
               alt={product.model}
               className="w-full h-52 object-cover"

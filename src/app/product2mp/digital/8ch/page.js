@@ -228,7 +228,7 @@ const Dvr8ChPage = () => {
             key={index}
             className="bg-white shadow-md rounded-2xl overflow-hidden border hover:shadow-lg transition"
           >
-            <img
+            <Image
               src={dvr.image}
               alt={dvr.model}
               className="w-full h-48 object-cover bg-gray-100 p-2"

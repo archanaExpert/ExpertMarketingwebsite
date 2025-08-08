@@ -241,7 +241,7 @@ export default function OrangeDVRPage() {
             key={index}
             className="bg-white border border-gray-200 rounded-xl shadow hover:shadow-lg transition duration-300 flex flex-col"
           >
-            <img
+            <Image
               src={dvr.image}
               alt={dvr.model}
               className="w-full h-52 object-cover rounded-t-xl"

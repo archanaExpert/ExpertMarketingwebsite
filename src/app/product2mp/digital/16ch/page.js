@@ -234,7 +234,7 @@ export default function Dvr16ChPage() {
                 key={dvr.model}
                 className="bg-white rounded-2xl shadow-lg p-5 border border-gray-200 hover:shadow-xl transition-all"
               >
-                <img
+                <Image
                   src={dvr.image}
                   alt={dvr.model}
                   className="w-full h-48 object-cover mb-4"

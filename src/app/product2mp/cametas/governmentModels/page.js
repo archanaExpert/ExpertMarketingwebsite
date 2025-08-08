@@ -1,4 +1,4 @@
-// components/GovernmentProjectSection.jsx
+
 import Image from "next/image";
 import Link from "next/link";
 
@@ -117,7 +117,7 @@ const GovernmentProjectSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-bold text-center text-gray-800 mb-10">Government Project - Project Models</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-          {governmentModels.map((model) => (
+          {governmentProjects.map((model) => (
             <div key={model.name} className="bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition">
               <Image
                 src={model.image}

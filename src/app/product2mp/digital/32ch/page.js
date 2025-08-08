@@ -228,7 +228,7 @@ const Orange32ChDVRPage = () => {
                   key={idx}
                   className="flex flex-col rounded-xl shadow-sm hover:shadow-lg transition p-4 h-full"
                 >
-                  <img
+                  <Image
                     src={item.image}
                     alt={item.model}
                     className="w-full h-48 object-cover mb-4"
