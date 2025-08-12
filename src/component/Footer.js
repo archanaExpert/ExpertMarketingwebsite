@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <>
     
-<section className="py-16 px-6 md:px-20 bg-blue-800 text-white text-center">
+<section className="py-16 px-6 md:px-20 bg-orange-500 text-white text-center">
   <h2 className="text-3xl md:text-4xl font-bold mb-4">
     Ready to Secure & Track Your Assets?
   </h2>
@@ -24,8 +24,8 @@ const Footer = () => {
 
   <Link href="/contact" >
     <button
-      className="flex items-center gap-2 bg-orange-500 text-white px-6 py-3 rounded-full 
-                 hover:bg-orange-600 transition duration-300 shadow-md mx-auto"
+      className="flex items-center gap-2 bg-blue-800 text-white px-6 py-3 rounded-full 
+                 hover:bg-blue-600 transition duration-300 shadow-md mx-auto"
       aria-label="Book a Free Consultation"
     >
       <FaPhoneAlt className="text-lg" />

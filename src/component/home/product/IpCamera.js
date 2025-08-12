@@ -78,9 +78,12 @@ export default function IpCameras() {
       
 
       <section className="py-5 px-6 md:px-20 bg-white min-h-[80vh]">
-        <h1 className="text-4xl font-bold text-center text-blue-800 mb-12">
-         Network IP Cameras by Resolution | Project-Ready Models<span className="block w-72 h-1 bg-blue-800 mx-auto mt-4 rounded-full"></span>
-        </h1>
+        <h3 className="text-3xl font-bold text-blue-900 text-center mb-12">
+         Network IP Cameras By {" "}
+          <span className="text-orange-500"> Resolution | Project-Ready Models</span>
+          <span className="block w-72 h-1 bg-blue-800 mx-auto mt-4 rounded-full"></span>
+        </h3>
+
 
      <div className="grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
   {networkCameras.map((cam, index) => (

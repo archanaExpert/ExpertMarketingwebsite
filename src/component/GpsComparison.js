@@ -26,9 +26,12 @@ export default function GpsComparison() {
       <div className="max-w-6xl mx-auto">
        
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-blue-900 mb-4">
-            GPS Tracking Technology Comparison<span className="block w-72 h-1 bg-blue-800 mx-auto mt-4 rounded-full"></span>
-          </h1>
+         <h3 className="text-3xl font-bold text-blue-900 text-center mb-12">
+          GPS Tracking {" "}
+          <span className="text-orange-500"> Technology Comparison</span>
+          <span className="block w-72 h-1 bg-blue-800 mx-auto mt-4 rounded-full"></span>
+        </h3>
+
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Compare traditional GPS vehicle trackers with portable magnetic GPS trackers to find the best fit for your tracking needs.
           </p>

@@ -9,10 +9,12 @@ export default function CameraComparison() {
     <div className="min-h-screen  bg-gradient-to-br from-blue-50 to-gray-100 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-blue-900 mb-4">
-            Camera Technology Comparison
-            <span className="block w-72 h-1 bg-blue-800 mx-auto mt-4 rounded-full"></span>
-          </h1>
+        <h3 className="text-3xl font-bold text-blue-900 text-center mb-12">
+          Camera{" "}
+          <span className="text-orange-500"> Technology  Comparison</span>
+          <span className="block w-72 h-1 bg-blue-800 mx-auto mt-4 rounded-full"></span>
+        </h3>
+
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Discover the key differences between traditional cameras and modern
             IP cameras to make the right choice for your needs.

@@ -55,7 +55,7 @@ const industries = [
     
       <div className="relative z-10 max-w-4xl mx-auto bg-white/70 backdrop-blur-md rounded-2xl shadow-xl p-10 text-center">
         <h2 className="text-4xl font-extrabold text-blue-900 mb-6">
-          About <span className="text-orange-500">P2M2 Camera Solutions</span>
+          About <span className="text-orange-500">P2M2 Camera Solutions</span><span className="block w-42 h-1 bg-blue-600 mx-auto mt-2 rounded-full"></span>
         </h2>
 
         <p className="text-lg text-gray-800 leading-relaxed">
